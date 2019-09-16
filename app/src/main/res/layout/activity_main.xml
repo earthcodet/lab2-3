@@ -7,12 +7,16 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/box_one_text"
+        style="@style/whiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginRight="16dp"
-        android:text="Hello World!"
+        android:layout_marginLeft="@dimen/margin_width"
+        android:layout_marginTop="@dimen/margin_width"
+        android:layout_marginRight="@dimen/margin_width"
+        android:fontFamily="@font/roboto"
+        android:text="@string/box_one"
+        android:textSize="@dimen/box_text_size"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
